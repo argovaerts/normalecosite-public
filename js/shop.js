@@ -7,7 +7,7 @@ const formatter = new Intl.NumberFormat('nl-BE', {
 document.addEventListener('DOMContentLoaded', () => {
   bulmaQuickview.attach();
 
-  fetch('data.json')
+  fetch('/data.json')
   .then(r => r.json())
   .then(items => {
     printItems(items)
