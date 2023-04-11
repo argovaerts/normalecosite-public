@@ -1,0 +1,78 @@
+/* fonts */
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/lato-v23-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/lato-v23-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/lato-v23-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/lato-v23-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/lato-v23-latin-regular.svg#Lato') format('svg');
+    /* Legacy iOS */
+}
+
+/* lora-regular - latin */
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/lora-v24-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/lora-v24-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/lora-v24-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/lora-v24-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/lora-v24-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/lora-v24-latin-regular.svg#Lora') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: 'Lora', serif;
+}
+
+/* navbar img */
+.navbar-item img {
+    max-height: 7.75rem;
+}
+
+/* Sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.section:last-of-type {
+    flex: 1;
+}
+
+/* Assortiment tabel */
+.w-75{
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* iframe kaart */
+iframe {
+    width: 100%;
+}
