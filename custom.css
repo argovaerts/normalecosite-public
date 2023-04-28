@@ -52,6 +52,13 @@ h1, h2, h3, h4, h5, h6, .title {
     max-height: 7.75rem;
 }
 
+/* hero */
+.hero-bg {
+    background: url('/img/arne_hogentenaar.jpg'), rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
 /* Sticky footer */
 body {
     display: flex;
